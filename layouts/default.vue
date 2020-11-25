@@ -19,47 +19,47 @@
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
+            <v-list-item-title v-text="item.title"/>
           </v-list-item-content>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-<!--    <v-app-bar-->
-<!--      :clipped-left="clipped"-->
-<!--      fixed-->
-<!--      app-->
-<!--    >-->
-<!--      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />-->
-<!--      <v-btn-->
-<!--        icon-->
-<!--        @click.stop="miniVariant = !miniVariant"-->
-<!--      >-->
-<!--        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>-->
-<!--      </v-btn>-->
-<!--      <v-btn-->
-<!--        icon-->
-<!--        @click.stop="clipped = !clipped"-->
-<!--      >-->
-<!--        <v-icon>mdi-application</v-icon>-->
-<!--      </v-btn>-->
-<!--      <v-btn-->
-<!--        icon-->
-<!--        @click.stop="fixed = !fixed"-->
-<!--      >-->
-<!--        <v-icon>mdi-minus</v-icon>-->
-<!--      </v-btn>-->
-<!--      <v-toolbar-title v-text="title" />-->
-<!--      <v-spacer />-->
-<!--      <v-btn-->
-<!--        icon-->
-<!--        @click.stop="rightDrawer = !rightDrawer"-->
-<!--      >-->
-<!--        <v-icon>mdi-menu</v-icon>-->
-<!--      </v-btn>-->
-<!--    </v-app-bar>-->
+    <!--    <v-app-bar-->
+    <!--      :clipped-left="clipped"-->
+    <!--      fixed-->
+    <!--      app-->
+    <!--    >-->
+    <!--      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />-->
+    <!--      <v-btn-->
+    <!--        icon-->
+    <!--        @click.stop="miniVariant = !miniVariant"-->
+    <!--      >-->
+    <!--        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>-->
+    <!--      </v-btn>-->
+    <!--      <v-btn-->
+    <!--        icon-->
+    <!--        @click.stop="clipped = !clipped"-->
+    <!--      >-->
+    <!--        <v-icon>mdi-application</v-icon>-->
+    <!--      </v-btn>-->
+    <!--      <v-btn-->
+    <!--        icon-->
+    <!--        @click.stop="fixed = !fixed"-->
+    <!--      >-->
+    <!--        <v-icon>mdi-minus</v-icon>-->
+    <!--      </v-btn>-->
+    <!--      <v-toolbar-title v-text="title" />-->
+    <!--      <v-spacer />-->
+    <!--      <v-btn-->
+    <!--        icon-->
+    <!--        @click.stop="rightDrawer = !rightDrawer"-->
+    <!--      >-->
+    <!--        <v-icon>mdi-menu</v-icon>-->
+    <!--      </v-btn>-->
+    <!--    </v-app-bar>-->
     <v-main>
       <v-container class="pa-0">
-        <nuxt />
+        <nuxt/>
       </v-container>
     </v-main>
     <v-navigation-drawer
@@ -90,7 +90,7 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       clipped: false,
       drawer: false,
@@ -110,6 +110,11 @@ export default {
           icon: 'mdi-account-plus',
           title: 'Cadastro',
           to: '/cadastro'
+        },
+        {
+          icon: 'mdi-account-plus',
+          title: 'Cadastro 2',
+          to: '/cadastro-dois'
         },
         {
           icon: 'mdi-compass',

@@ -11,7 +11,11 @@ export default {
       {hid: 'description', name: 'description', content: ''}
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,600,600i,700&display=swap'
+      }
     ]
   },
 
@@ -36,6 +40,14 @@ export default {
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    treeShake: true,
+    defaultAssets:
+      {
+        font: {
+          family: 'Montserrat'
+        },
+        icons: 'fa'
+      },
     theme: {
       dark: false,
       themes: {

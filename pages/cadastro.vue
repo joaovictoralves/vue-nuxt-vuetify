@@ -47,10 +47,7 @@
                     :rules="[ val => val && val.length <12  || 'CPF inválido!']"
                   ></v-text-field>
                 </v-col>
-              </v-row>
-
-              <v-row>
-                <v-col md="12" sm="12" class="pt-0 pb-0">
+                <v-col lg="9" md="6" sm="12" class="pb-0">
                   <v-text-field
                     label="Nome"
                     outlined
@@ -67,10 +64,7 @@
                     background-color="#FBFEFF"
                   ></v-text-field>
                 </v-col>
-              </v-row>
-
-              <v-row>
-                <v-col md="6" sm="12" class="pt-0 pb-0">
+                <v-col md="3" sm="12" class="pt-0 pb-0">
                   <v-select
                     :items="['GO', 'TO']"
                     label="Estado"
@@ -119,7 +113,7 @@
                     background-color="#FBFEFF"
                   ></v-text-field>
                 </v-col>
-                <v-col lg="3" md="6" sm="12" class="pt-0 pb-0">
+                <v-col lg="6" md="6" sm="12" class="pt-0 pb-0">
                   <v-text-field
                     label="Lote"
                     outlined
@@ -156,14 +150,14 @@
               </v-row>
 
               <v-row>
-                <v-col lg="3" md="6" sm="12" class="pt-0 pb-0">
+                <v-col lg="6" md="6" sm="12" class="pt-0 pb-0">
                   <v-text-field
                     label="E-mail"
                     outlined
                     background-color="#FBFEFF"
                   ></v-text-field>
                 </v-col>
-                <v-col lg="3" md="6" sm="12" class="pt-0 pb-0">
+                <v-col lg="6" md="6" sm="12" class="pt-0 pb-0">
                   <v-text-field
                     label="Confirmar E-mail"
                     outlined
@@ -173,14 +167,14 @@
               </v-row>
 
               <v-row>
-                <v-col lg="3" md="6" sm="12" class="pt-0 pb-0">
+                <v-col lg="6" md="6" sm="12" class="pt-0 pb-0">
                   <v-text-field
                     label="Senha"
                     outlined
                     background-color="#FBFEFF"
                   ></v-text-field>
                 </v-col>
-                <v-col lg="3" md="6" sm="12" class="pt-0 pb-0">
+                <v-col lg="6" md="6" sm="12" class="pt-0 pb-0">
                   <v-text-field
                     label="Confirmar Senha"
                     outlined
