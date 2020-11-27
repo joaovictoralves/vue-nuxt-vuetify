@@ -132,7 +132,7 @@
 <script>
 export default {
   layout: 'externo',
-  name: "cadastro-dois"
+  name: "login-dois"
 }
 </script>
 

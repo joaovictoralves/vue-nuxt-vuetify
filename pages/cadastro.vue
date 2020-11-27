@@ -211,7 +211,7 @@
         >
           <v-img src="/nascente.jpg" style="width: 100%;"></v-img>
 
-          <v-card shaped class="ml-4 mr-4 white--text" style="margin-top: -15px" color="#19AA75">
+          <v-card class="ml-4 mr-4 white--text" style="margin-top: -15px" color="#19AA75">
             <v-card-title style="width: 100%" class="justify-center text-h5">
               Conheça o formato de <br/>NASCENTE PROTEGIDA
             </v-card-title>
@@ -254,6 +254,7 @@
 
 <script>
 export default {
+  layout: 'externo',
   name: "cadastro"
 }
 </script>

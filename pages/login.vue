@@ -24,7 +24,6 @@
                     :rules="[ val => val && val.length <12  || 'CPF inválido!']"
                   ></v-text-field>
                 </v-col>
-
               </v-row>
 
               <v-row>
@@ -95,7 +94,6 @@
                 </v-card-text>
               </v-card>
 
-
               <v-btn
                 x-large
                 width="90%"
@@ -131,7 +129,7 @@
 <script>
 export default {
   layout: 'externo',
-  name: "cadastro-dois"
+  name: "login"
 }
 </script>
 
